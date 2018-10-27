@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Abel);
+/* Base
+------------------------------------------------------------*/
+html {
+  font-size: 62.5%; }
+
+body {
+  color: #4c4c4c;
+  font-size: 1.4rem;
+  font-family: "游ゴシック", YuGothic, "メイリオ", Verdana, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+  background-color: #fdfcf6; }
+
+a {
+  color: #14c0c9;
+  text-decoration: none; }
+  a:visited {
+    color: #0f949b; }
+  a:hover {
+    color: #0f949b; }
+  a:active {
+    color: #16d6e0; }
+
+.container {
+  height: 500px; }
+
+.gazou {
+  height: 100%;
+  width: 100%; }
+
+@media (max-width: 768px) {
+  .container {
+    height: 250px; } }
+#skills {
+  background: #fffaf0;
+  font-size: 3.5rem;
+  text-align: center; }
+
+#skills .title {
+  color: #000000;
+  padding-top: 3.5rem; }
+
+.boxA {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px; }
+
+.boxB {
+  　　margin: 1rem;
+  background: #eee;
+  width: 30%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.22); }
+
+.boxB .box-title {
+  background: #eee8aa;
+  padding: 15px;
+  color: #696969; }
+
+.boxB p {
+  margin: 6rem; }
+
+@media (max-width: 768px) {
+  .boxA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem; }
+
+  .boxB {
+    width: 100%;
+    margin: 2rem; } }
+footer {
+  background-image: url("https://www.pakutaso.com/shared/img/thumb/yuyakeIMGL7125_TP_V.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-color: #fdfcf6;
+  height: 250px;
+  text-align: center;
+  color: #000000; }
+
+footer h1 {
+  font-size: 2.5rem;
+  padding-top: 7.5rem;
+  padding-bottom: 1rem;
+  opacity: 0.8; }
+
+footer .btn {
+  font-size: 2.5rem;
+  display: inline-block;
+  background: #eee8aa;
+  border-radius: 6px;
+  width: 28%;
+  color: #000000;
+  opacity: 0.8; }
+
+.btn:active {
+  cursor: pointer;
+  position: relative;
+  border-bottom: none;
+  top: 4px; }
+
+.btn:hover {
+  opacity: 1; }
+
+@media (max-width: 768px) {
+  footer {
+    height: 250px; }
+
+  .btn {
+    padding: 0 8rem; }
+
+  .btn:hover {
+    text-decoration: none; } }
+
+/*# sourceMappingURL=style.css.map */
